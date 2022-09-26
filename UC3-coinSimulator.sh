@@ -2,8 +2,9 @@
 
 headsCount=0;
 tailsCount=0;
+targetCount=21;
 
-while [[ $headsCount -lt 21 && $tailsCount -lt 21 ]]
+while [[ $headsCount -lt $targetCount && $tailsCount -lt $targetCount ]]
 do
 	Coin=$(($RANDOM % 2))
 
